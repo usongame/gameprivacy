@@ -1,1 +1,2 @@
 # gameprivacy
+# fix some bug
