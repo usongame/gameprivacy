@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '隐私政策和用户协议',
-  tagline: 'Dinosaurs are cool',
+  tagline: '徐州秋水伊人信息技术有限公司',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

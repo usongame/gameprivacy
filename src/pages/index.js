@@ -19,8 +19,17 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/privacy">
+            隐私政策
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            style={{
+              marginLeft: 20
+            }}
+            to="/docs/user">
+            用户协议
           </Link>
         </div>
       </div>
@@ -34,9 +43,10 @@ export default function Home() {
     <Layout
       title={`秋水游戏 ${siteConfig.title}`}
       description="隐私政策和用户协议">
-      {/* <HomepageHeader /> */}
+      <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
+
       </main>
     </Layout>
   );
