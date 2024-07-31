@@ -23,7 +23,7 @@ https://ie-activity-cn.heytapimage.com/ie-activity/staticActivity/kpmYVr/htmls/k
 
 SDK用途：用于展示OPPO平台所提供的广告信息
 
-收集个人信息类型：您的精良位置(GPS)或粗略位置
+收集个人信息类型：您的精良位置(GPS)或粗略位置,读取AndroidID,获取WiFi的SSID
 
 收集方式：SDK采集
 
