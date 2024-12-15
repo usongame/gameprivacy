@@ -455,7 +455,7 @@ https://developer.hihonor.com/cn/kitdoc?category=%E5%9F%BA%E7%A1%80%E6%9C%8D%E5%
 
 SDK用途：用于展示优量汇平台提供广告信息
 
-收集个人信息类型：网络信息状态、当前WiFi接入的状态以及WLAN热点的信息、Android ID、通话状态、您的精良位置(GPS)或粗略位置；请求安装第三方应用权限；软件应用安装列表
+收集个人信息类型：网络信息状态、当前WiFi接入的状态以及WLAN热点的信息、IP、Android ID、通话状态、您的精良位置(GPS)或粗略位置；请求安装第三方应用权限；软件应用安装列表
 
 收集方式：SDK采集
 
