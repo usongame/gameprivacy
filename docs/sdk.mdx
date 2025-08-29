@@ -1,0 +1,1300 @@
+---
+id: sdk
+title: 第三方 SDK 目录
+---
+
+<h4>第三方SDK类服务商目录</h4>
+      <p class="unless">
+        为保障秋水游戏的相关功能的实现与应用安全稳定的运行，我们会接入由第三方提供的软件开发包（SDK）或类似应用程序实现相关目的。我们会对合作方获取信息的软件工具开发包（SDK）或类似应用程序进行严格的安全评估，以保护您的个人信息安全。
+      </p>
+      <p>
+        由于不同的第三方获取的个人信息多种多样，其中对以下个人信息进行详细说明：
+      </p>
+      <p class="important">
+        设备信息： 设备机型、操作系统及版本、设备分辨率、设备电池电量、设备设置、安卓ID（Android
+        ID，安卓9.0及以下版本）、OAID（安卓9.0以上版本）、设备读取的存储信息、设备标识符（Android：Android
+        ID/IDFA/IDFV/OpenUDID/GUID，HarmonyOS：ODID、OAID）、软硬件特征信息、设备所在粗略位置相关信息（IP
+        地址、能够提供相关信息的WLAN接入点、蓝牙和基站传感器信息）。
+      </p>
+      <p class="important">
+        网络信息：网络环境、IP地址、WiFi bssid、WiFi ssid
+      </p>
+      <p class="important">
+        日志信息：登录账号、IP地址、电信运营商、网络环境、使用的语言、访问日期和时间、客户端版本、包名、Push打开记录、停留时长、刷新记录、发布记录、收藏及分享
+      </p>
+      <p class="important">
+        运营商信息：中国大陆地区内的移动、电信、联通运营商
+      </p>
+      <p class="important">
+        广告标识符：OAID、VAID、AAID
+      </p>
+        <table>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+  <tr>
+    <th colspan="9">秋水游戏第三方信息共享清单(Android)</th>
+  </tr>
+  <tr>
+    <th>功能类型</th>
+    <th>第三方名称</th>
+    <th>使用目的</th>
+    <th>使用场景</th>
+    <th>共享方式</th>
+    <th>使用范围</th>
+    <th>使用的敏感权限</th>
+    <th>收集类型</th>
+    <th>第三方隐私政策或官网链接</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>华为游戏服务SDK</td>
+    <td>华为技术有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当华为渠道用户登录时、当华为渠道用户支付时、当华为渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>华为渠道用户</td>
+    <td></td>
+    <td>网络信息、运营商信息、日志信息、设备信息（设备标识符、产品品牌、国家码、操作系统）、设备硬件信息（设备类型）、帐号信息（华为帐号ID、游戏玩家排名、开发者帐号ID、游戏PlayerID）、商业公开发布的内容（应用基本信息）、应用信息（内容下载渠道、应用功能设置、应用使用记录、游戏成就、内容下载渠道、游戏时长、单个玩家游戏统计数据、游戏记录、游戏存档记录）、宿主App进程信息</td>
+    <td>
+      https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/sdk-data-security-0000001050121546
+      <div>华为推送隐私政策：https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/sdk-data-security-harmony-0000001268996441</div>
+      <div>华为鸿蒙推送隐私政策：https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/sdk-data-security-0000001050042177</div>
+    </td>
+  </tr>
+    <tr>
+    <td>鲸鸿动能SDK</td>
+    <td>华为技术有限公司</td>
+    <td>广告投放</td>
+    <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+    <td>SDK本机采集</td>
+    <td>华为渠道用户</td>
+    <td></td>
+    <td>网络信息、运营商信息、日志信息、设备及使用信息（设备标识符、操作系统的设置信息、设备的硬件信息、应用的基本信息及使用信息、网络信息、运营商信息）、广告信息（用户与本服务投放的广告之间的互动信息）、指定包名信息、传感器信息（陀螺仪、加速度计、旋转矢量传感器、磁力计、气压计）</td>
+    <td>
+      https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/whale-hong-kinetic-energy-sdk-privacy-statement-0000001658283582
+    </td>
+  </tr>
+    <tr>
+    <td>游戏联运SDK</td>
+    <td>OPPO广东移动通信有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当OPPO渠道用户登录时、当OPPO渠道用户支付时、当OPPO渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>OPPO渠道用户</td>
+    <td>通讯录、写入存储权限</td>
+    <td>网络信息、运营商信息、日志信息、传感器列表、设备信息（设备名称、设备型号、设备识别码（ouid、oaid、duid、VAID、Android ID、SSID）、IP 地址、操作系统版本）软件事件信息（重启、升级、错误、崩溃）、wifi ssid、宿主应用进程信息、指定包名信息、WiFi状态</td>
+    <td>
+      https://ie-activity-cn.heytapimage.com/ie-activity/staticActivity/kpmYVr/htmls/kpmYVr.html?bizType=ie&actId=10001811&c=0
+      <div>OPPO推送隐私政策：https://open.oppomobile.com/new/developmentDoc/info?id=10288</div>
+      <div>注意：当您使用一加账号登录时，OPPO SDK会访问中国香港服务器</div>
+      <div>当您使用OPPO支付时，为确保顺利完成支付，OPPO SDK会检索您的应用安装列表，以找到适合的支付程序</div>
+      <div>当您使用OPPO支付时，会访问com.client.platform读取指定包名</div>
+    </td>
+  </tr>
+    <tr>
+    <td>OPPO联盟广告SDK</td>
+    <td>OPPO广东移动通信有限公司</td>
+    <td>广告投放</td>
+    <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+    <td>SDK本机采集</td>
+    <td>OPPO渠道用户</td>
+    <td>存储权限</td>
+    <td>网络信息、运营商信息、日志信息、传感器（加速度传感器、磁场传感器、重力加速度传感器）、传感器列表、设备标识（Android ID、OAID、DAID）、设备信息（设备制造商，设备型号，系统版本，安卓版本，屏幕分辨率、存储空间信息、传感器信息（加速度、陀螺仪））、应用信息（应用名称、应用包名、应用版本号）、WiFi信息（包括连接的WiFi状态）、IP地址、宿主App进程信息</td>
+    <td>
+      https://u.oppomobile.com/main/privacy.html OPPO广告SDK集成了ms.bd.c
+      <div>当生成原生广告时，引用com.nostra13.universalimageloader开源框架</div>
+    </td>
+  </tr>
+    <tr>
+    <td>VIVO-联运SDK</td>
+    <td>维沃移动通信有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当VIVO渠道用户登录时、当VIVO渠道用户支付时、当VIVO渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>VIVO渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      运营商信息、日志信息、传感器（加速度传感器、旋转矢量传感器）、传感器列表、游戏账号信息、游戏包名、游戏版本号、订单信息（<b>订单号、收件信息</b>、购买产品或服务信息）信息、商品名称、商品金额。允许安装应用权限、手机号码、品牌信息（设备制造商、设备型号、设备品牌，判断终端品牌，调用接口）、网络信息（设备网络运营商名称，判断是否为虚拟机环境）、应用软件信息（App包名及签名信息，或在对应应用商店的APPID，生成VAID时判断是否为同一开发者）、设备信息（操作系统版本号、CPU架构、操作系统设置信息、OAID、VAID、AAID，用于对不同版本的Android系统的兼容）
+    </td>
+    <td>
+      https://dev.vivo.com.cn/documentCenter/doc/712
+      <div>VIVO推送隐私政策：https://dev.vivo.com.cn/documentCenter/doc/652</div>
+      <div>VIVO集成的SDK含有：网易云安全SDK SDK公司：杭州网易智企科技有限公司 隐私政策地址: https://dun.163.com/clause/privacy</div>
+      当您使用vivo账号登录或支付时，vivo SDK会访问浙江雀牛网络科技有限公司
+    </td>
+  </tr>
+      <tr>
+      <td>VIVO流量联盟SDK</td>
+      <td>维沃移动通信有限公司</td>
+      <td>广告</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>VIVO渠道用户</td>
+      <td></td>
+      <td>
+        网络信息、运营商信息、传感器（加速度传感器、旋转矢量传感器）传感器列表
+        设备及应用信息：操作系统版本号、设备标识符（EMMCID/UFSID 、OAID/VAID/AAID 、Android id、移动国家码和vivo Android设备的移动网号）、移动运营商、使用语言、系统设置、激活日期、运行时长的系统、设备和应用程序数据。
+        日志信息：登录日志、网络请求、访问时间、访问次数、访问IP、应用操作信息（包括下载、安装、切换、更新、卸载）、错误崩溃信息。
+      </td>
+      <td>https://adnet.vivo.com.cn/home/agreement/18</td>
+    </tr>
+    <tr>
+    <td>小米游戏联运SDK</td>
+    <td>小米科技有限责任公司</td>
+    <td>登录、支付、推送</td>
+    <td>当小米渠道用户登录时、当小米渠道用户支付时、当小米渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>小米渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      运营商信息、日志信息、传感器列表、设备型号、手机制造商、游戏服务app版本、手机所设置的国家或地区、手机屏幕分辨率、手机屏幕像素密度、安卓系统版本号、Android SDK版本号、当前网络类型、oaid、fuid、身体传感器信息、检索正在运行的应用、WLAN连接、读取外置存储卡、写入外部存储卡、获取网络权限、INTERNET、Android ID、OAID、SSID、BSSID）；系统设置、系统属性、设备型号、设备品牌、操作系统、包体信息；IP 地址、网络类型、运营商信息、Wi-Fi 状态、Wi-Fi 位置信息、Wi-Fi 参数、Wi-Fi 列表；设备传感器信息、传感器（加速度传感器）、设备标识信息、OAID、AndroidID)，小米ID，网络状态信息(IP、当前网络类型和名称)
+    </td>
+    <td>
+      https://privacy.mi.com/xiaomigame-sdk/zh_CN/
+      <div>小米推送隐私政策：https://dev.mi.com/distribute/doc/details?pId=1534</div>
+    </td>
+  </tr>
+      <tr>
+      <td>米盟广告SDK</td>
+      <td>小米科技有限责任公司</td>
+      <td>广告</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>小米渠道用户</td>
+      <td>存储权限</td>
+      <td>
+        运营商信息、日志信息、传感器（加速度传感器）、传感器列表、
+        设备信息:设备标识符（OAID、AAID、UDID、VAID、Android ID）、设备基础信息（设备型号、操作系统、IP地址、屏幕宽高、屏幕密度、Android版本号、SDK版本、MIUI版本号、 MIUI版本名称、系统语言、UserAgent、手机地区、国家编码 、国家名称）
+        网络信息：WiFi状态、移动运营商、网络类型、网络连接状态
+        应用信息：应用包名、版本号、运行中App的进程列表
+        广告信息：广告位ID、广告数量、对广告的展示、点击及转化的交互数据
+        其他信息：个性化广告开关状态
+      </td>
+      <td>
+        https://dev.mi.com/console/doc/detail?pId=2630
+        当您使用小米账号登录或支付时，小米 SDK会访问北京百度网讯科技有限公司
+      </td>
+    </tr>
+    <tr>
+      <td>穿山甲广告SDK</td>
+      <td>北京巨量引擎网络技术有限公司</td>
+      <td>广告投放及统计</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>所有渠道用户</td>
+      <td>存储权限</td>
+      <td>
+        设备信息
+        必选信息：
+        【Android+iOS】设备品牌、型号、软件系统版本、屏幕密度、屏幕分辨率、设备语言、设备时区、sim卡信息（mcc&mnc）、CPU信息、可用存储空间大小等基础信息
+        【Android】AndroidID、OAID
+        【iOS】手机系统重启时间、磁盘总空间、系统总内存空间、IDFV
+        网络信息
+        必选信息：
+        【Android+iOS】运营商信息、Wi-Fi状态、网络信号强度、IP地址
+        应用信息
+        必选信息：
+        【Android】应用包名、运行中的进程信息、版本号、应用前后台状态
+        可选信息：
+        【Android】软件列表信息
+        传感器信息
+        可选信息：
+        【Android】线性加速度传感器、磁场传感器、旋转矢量传感器
+        【Android+iOS】加速度传感器、陀螺仪传感器
+        广告信息
+        【Android+iOS】对广告的展示、点击及转化等交互数据
+        性能数据
+        【双端】崩溃数据、性能数据
+      </td>
+      <td>https://www.csjplatform.com/privacy/partner</td>
+    </tr>
+    <tr>
+    <td>友盟+移动统计SDK</td>
+    <td>友盟同欣（北京）科技有限公司、北京锐讯灵通科技有限公司</td>
+    <td>更精确统计分析用户的数据，实现分享和推送功能</td>
+    <td>当您启动或关闭应用时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、运营商信息、日志信息、应用包名信息、宿主APP包名信息、宿主APP进程信息、设备标识信息:必选:AndroidID/OAID/IDFA/0penUDID/GUID
+    </td>
+    <td>https://www.umeng.com/page/policy</td>
+  </tr>
+  <tr>
+    <td>Bugly SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>监控本客户端崩溃、页面异常等问题、通过shell命令getprop获取手机全部参数信息</td>
+    <td>当App崩溃或脚本异常时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、运营商信息、日志信息（第三方开发者自定义 日志、Logcat 日志以及 APP 崩溃堆栈信息）、设备 ID（包括：androidid 以及 idfv）、联网信息、系统名称、系统版本以及国家码、特定包名信息、宿主APP进程信息
+    </td>
+    <td>https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf</td>
+  </tr>
+  <tr>
+    <td>Udesk SDK</td>
+    <td>北京沃丰时代数据科技有限公司</td>
+    <td>解决您在产品内遇到的问题、收集您的反馈或意见</td>
+    <td>当您使用客服功能反馈问题时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>使用摄像头拍摄、麦克风、相机、读取相册、保存相册</td>
+    <td>网络信息、运营商信息、传感器（加速度传感器）、传感器列表、SDK版本号，屏幕尺寸，设备型号，手机操作系统版本号，App名称，App版本，时间戳，时区和网络</td>
+    <td>
+      https://www.udesk.cn/terms_service.html Udesk集成的SDK含有：Facebook SDK 当您使用Udesk客服功能时，需要访问北京沃丰时代数据科技有限公司
+    </td>
+  </tr>
+  <tr>
+    <td>微信Open SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>登录、支付、分享</td>
+    <td>当用户登录时、当用户使用微信支付时、当用户分享至微信客户端时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>保存图片到相册</td>
+    <td>
+      设备信息、网络信息、运营商信息、剪切板信息、设备标识符、微信包名信息
+    </td>
+    <td>
+      https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8
+      腾讯SDK集成的SDK含有：腾讯微信开放平台
+    </td>
+  </tr>
+  <tr>
+    <td>APP支付客户端SDK</td>
+    <td>支付宝(中国)网络技术有限公司</td>
+    <td>支付</td>
+    <td>当用户使用支付宝支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      传感器（加速度传感器、旋转矢量传感器）、传感器列表、指定包名信息
+      可变更的唯一设备识别码:OAID、SSID、BSSD、CAID
+      基本设备信息:设备机型相关信息，通常用于功能适配、稳定性的功能，系统设置、系统属性、设备型号、设备品牌、操作系统、Android ID
+      网络信息: IP 地址、网络类型、运营商信息、 wiFi 状态、WiFi 参数、 WiFi 列表
+    </td>
+    <td>https://opendocs.alipay.com/open/54/01g6qm#%E6%94%AF%E4%BB%98%E5%AE%9D%20App%20%E6%94%AF%E4%BB%98%E5%AE%A2%E6%88%B7%E7%AB%AF%20SDK%20%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96</td>
+  </tr>
+  <tr>
+    <td>OAID SDK</td>
+    <td>中国信息通信研究院</td>
+    <td>实现设备的匿名标识，降低被广告追踪的可能性，保护您的隐私</td>
+    <td>当App启动时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>设备信息（设备制造商、设备型号、设备品牌、OAID、VAID、AAID）、网络信息（设备网络运营商名称）、应用包名</td>
+    <td>https://msa-alliance.cn/col.jsp?id=122</td>
+  </tr>
+  <tr>
+    <td>抖音SDK</td>
+    <td>北京微播视界科技有限公司</td>
+    <td>登录、支付、推送、分享</td>
+    <td>抖音渠道用户登录时、当抖音渠道用户支付时、当抖音渠道用户分享至抖音时、当抖音渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>抖音渠道用户</td>
+    <td>获取粗略地理位置</td>
+    <td>
+      网络信息、运营商信息、传感器（加速度传感器）、传感器列表、硬件型号、操作系统版本号、设备标识符（Android的AndroidID、OAID、GAID，iOS的IDFV、IDFA）、网络设备硬件地址、IP 地址、WLAN接入点（SSID，BSSID）、蓝牙（Bluetooth）、软件版本号、网络接入方式、类型、状态、网络质量数据、操作、使用、服务日志、设备传感器数据（加速度传感器、线性加速度传感器、重力传感器、陀螺仪传感器）数据。安装的应用信息、正在运行的进程信息、应用程序的总体运行、使用情况与频率、应用崩溃情况、总体安装使用情况、性能数据、应用来源。
+    </td>
+    <td>https://www.douyin.com/agreements/?id=6773901168964798477</td>
+  </tr>
+  <tr>
+    <td>快手游戏SDK</td>
+    <td>北京慕远科技有限公司、北京快手科技有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当快手渠道用户登录时、当快手渠道用户支付时、当快手渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>快手渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、运营商信息、传感器（加速度传感器、旋转矢量传感器）、设备ID、设备名称、设备类型和版本、系统版本、IP地址、设备标识信息（Android ID）、短信和网络类型信息。注册信息、设备信息、网络日志，以及您安装的应用信息、正在运行的进程信息、应用程序的总体运行、使用应用程序的频率、崩溃数据、总体安装使用情况、性能数据
+    </td>
+    <td>https://www.gamekuaishou.com/privacy</td>
+  </tr>
+      <tr>
+      <td>快手联盟SDK</td>
+      <td>北京快手广告有限公司、北京快手科技有限公司</td>
+      <td>广告投放</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>VIVO渠道用户</td>
+      <td></td>
+      <td>
+        网络信息、运营商信息
+        基础信息：设备品牌、设备型号、软件系统版本、存储信息、运营商信息、设备时区、设备语言、网络信息的基础信息
+        设备标识:OAID、Androidld
+        位置信息：IP 地址、WIFI信息
+        其他信息: 传感器信息 (加速度、重力、陀螺仪传感器)、sim卡激活信息、传感器列表
+      </td>
+      <td>https://u.kuaishou.com/home/detail/1290</td>
+    </tr>
+    <tr>
+      <td>转化SDK</td>
+      <td>北京巨量引擎网络技术有限公司</td>
+      <td>广告数据统计服务</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>今日头条渠道用户</td>
+      <td></td>
+      <td>
+        网络信息、运营商信息
+        设备信息：
+        必选信息：【双端】设备品牌、型号、操作系统、软件系统版本、分辨率、网络信号强度、IP地址、设备语言、浏览器的类型和版本号、操作、使用、服务日志的基础信息【仅Android】AndroidID、OAID【仅iOS】手机系统重启时间、磁盘总空间、系统总内存空间、CPU数目的基础信息、IDFV可选信息：您可以基于广告投放效果优化的目的需要选择是否向SDK提供如下信息：【双端】WiFi路由器MAC地址（BSSID）、【仅Android】设备标识符（GAID（仅GMS服务），具体字段因软硬件版本不同而存在差异）【仅iOS】设备标识符（IDFA，具体字段因软硬件版本不同而存在差异）
+        应用信息：
+        必选信息：
+        【仅Android】开发者应用名、应用包名、运行中的进程信息、版本号、应用前后台状态
+        可选信息：
+        您可以基于广告投放效果优化的目的需要选择是否向SDK提供：
+        【仅Android】WIFI状态
+        广告信息：
+        必选信息
+        【双端】对广告的展示、点击及转化的交互数据
+      </td>
+      <td>https://open.oceanengine.com/doc/index.html?key=ad&type=api&id=1708428054592516</td>
+    </tr>
+        <tr>
+      <td>优量汇 SDK</td>
+      <td>深圳市腾讯计算机系统有限公司</td>
+      <td>广告投放合作，广告归因，反作弊</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>秋水中国象棋APP用户、中国象棋竞技版APP用户</td>
+      <td>存储权限</td>
+      <td>
+        运营商信息、传感器（加速度传感器）、传感器列表、磁场传感器、
+        设备/网络/系统信息
+        【双端】设备制造商、品牌、设备型号、操作系统版本、屏幕分辨率、屏幕方向、屏幕DPI、IP地址、时区、网络类型、运营商
+        【仅Android】磁力、加速度、重力、陀螺仪传感器
+        【仅iOS】设备名称、系统启动时间、系统语言、磁盘空间、设备姿态、压力、加速度传感器的基础信息
+        标识符
+        【仅Android】OAID
+        第三方开发者可以选择是否授权本SDK收集如下信息：
+        【仅Android】Android_ID
+        【仅iOS】IDFV、 IDFA
+        应用信息
+        【双端】宿主应用的包名、版本号
+        【仅Android】 宿主应用的进程名称、运行状态、可疑行为
+        第三方开发者可以选择是否授权本SDK收集如下信息：
+        【双端】应用安装信息
+        使用数据
+        【双端】产品交互数据、广告数据（展示、点击、转化广告数据）
+        诊断数据
+        【双端】崩溃数据、性能数据
+      </td>
+      <td>https://e.qq.com/dev/help_detail.html?cid=2005&pid=5983</td>
+    </tr>
+    <tr>
+      <td>腾讯图灵盾风险识别SDK</td>
+      <td>深圳市腾讯计算机系统有限公司</td>
+      <td>由优量汇SDK集成，提供广告推荐、归因及反作弊场景统计，如虚假流量识别等</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>OPPO渠道用户</td>
+      <td>读取存储权限</td>
+      <td>Android ID、OAID、网络状态、系统设置、系统属性（含传感器列表信息）、设备型号、操作系统、IP地址、WIFI状态</td>
+      <td>https://privacy.qq.com/document/preview/5331f064a91a47eb93993fdacb91c8f7</td>
+    </tr>
+    <tr>
+    <td>Cocos(Cocos2d-x、Cocos Creator)</td>
+    <td>厦门雅基软件有限公司</td>
+    <td>游戏开发框架，用于游戏开发</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、传感器、传感器列表、指定包名信息
+      （1）设备信息：设备型号、操作系统版本、语言环境、IP地址、设备识别码（IMEI）、浏览器的类型、电信运营商信息。
+      （2）日志信息：访问的网页、搜索内容、访问时间、IP地址、浏览器类型、电信运营商、使用的语言，以及新建项目信息、项目构建信息、项目参数、项目类型、使用时长、开发应用名称、应用发布渠道。
+      （3）您终端用户的信息：终端设备操作系统版本、应用标识符、应用程序版本、应用分发渠道、IP地址、iOS供应商标识符（IDFV）、iOS广告标识符（IDFA）、安卓广告主标识符、在线时长、设备厂商、设备型号、分辨率、移动网络、语言环境、网络类型信息。
+    </td>
+    <td>https://download.cocos.com/CocosUdc/agreement/Cocos_Privacy_Policy_cn_20200904.html</td>
+  </tr>
+  <tr>
+    <td>unity 3D SDK</td>
+    <td>优三缔科技（上海）有限公司</td>
+    <td>运行 2D 和 3D 内容时帮助玩家进行游戏行为</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限、网络权限</td>
+    <td>
+      运营商信息、旋转矢量传感器、运行列表信息、SSID、传感器列表
+    </td>
+    <td>https://unity.cn/legal/china-privacy-policy</td>
+  </tr>
+  <tr>
+    <td>银联支付（自运营）</td>
+    <td>银联商务股份有限公司</td>
+    <td>支付</td>
+    <td>当您使用银联支付时</td>
+    <td>SDK本机采集</td>
+    <td>官方版本用户</td>
+    <td>存储权限</td>
+    <td>
+      传感器（加速度传感器、旋转矢量传感器）、传感器列表
+      设备相关信息（包括设备型号、操作系统版本、设备设置、设备环境的软硬件特征信息）。
+      设备状态（包括wifi，个人设备厂商、个人设备型号、个人设备网络运营商、个人设备IP地址、个人设备操作系统类型、个人设备操作系统版本用于确定设备识别码）、设备平台、设备厂商、设备品牌、设备识别码设备信息、设备位置（通过蓝牙或wifi信号获得的位置信息）
+    </td>
+    <td>https://www.chinaums.com/xwzx/gsgs/yszc/202111/t20211111_44864.shtml</td>
+  </tr>
+      <tr>
+      <td>smsdk</td>
+      <td>北京数美时代科技有限公司</td>
+      <td>反作弊、风险控制</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>VIVO渠道用户</td>
+      <td>存储权限</td>
+      <td>
+        网络信息（IP 地址、联网方式、运营商信息、网络连接状态、SSID、BSSID）
+        设备基本信息，包括设备品牌、设备制造商、设备型号、设备名称、设备系统类型及版本信息、设备基本配置、设备基本设置、设备环境
+        设备标识信息，包括IDFV（应用开发商标识符）、IDFA（广告标示符）、OAID（匿名设备标识符）； 设备网络信息，包括网络的接入形式、无线路由器标识（BSSID、SSID）及IP地址、周边WIFI列表、网络运营商信息、网络基站信息、网络连接状态
+        设备应用信息，包括SDK宿主应用包名及版本号、运行中进程信息（仅获取当前进程名称）
+      </td>
+      <td>https://www.ishumei.com/legal/cn/privacy.html?productHelp=/docs/tw/sdk/guide/developDoc/</td>
+    </tr>
+    <tr>
+    <td>bilibili游戏SDK（com.base.commonlib）</td>
+    <td>上海宽娱数码科技有限公司、芜湖享游网络技术有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当哔哩哔哩渠道用户登录时、当哔哩哔哩渠道用户支付时、当哔哩哔哩渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>哔哩哔哩渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、运营商信息、日志信息
+      硬件信息（设备型号、设备品牌、设备名称、相机信息（像素、摄像头数量）、屏幕分辨率、CPU信息（核心数、频率、供应商）、内存大小、传感器信息）、设备标识符（Android ID、OAID）、浏览器类型和设置、语言设置、操作系统和应用程序版本、登录IP地址、接入网络的方式、网络质量数据、移动网络信息（网络类型、网络运营商）、产品版本号、网络日志信息（操作日志、服务日志）、系统版本。本地储存权限、网络访问权限
+    </td>
+    <td>
+      https://game.bilibili.com/agreement/privacy/2/628f25c2fb3ee100426c1095?fromOpenUri=0&isOwnLink=1&aloneBack=1&alone=1
+      注意：当哔哩哔哩SDK使用paypal支付时，需要访问境外IP地址
+    </td>
+  </tr>
+  <tr>
+    <td>网易易盾SDK</td>
+    <td>杭州网易智企科技有限公司</td>
+    <td>帮助游戏防御破解和外挂等安全风险</td>
+    <td>当您启动App时、当您登录时</td>
+    <td>SDK本机采集</td>
+    <td>VIVO渠道用户、哔哩哔哩渠道用户</td>
+    <td></td>
+    <td>
+      a． 基础信息：协议版本号、平台、包名、操作系统版本、Model 、APP版本号、手机品牌、运营商、第一次安装时间、上次更新时间、ro.boot.bootloader。
+      b． 设备信息：OAID、VAID、AAID、AndroidId、电源数量、是否存在SIM卡、指令架构、屏幕高、屏幕宽。
+      c． 环境信息：网络连接类型、USB调试模式、重力感应检测、电量获取、充电状态。
+      d． 行为数据：用户在终端屏幕中点击、拖动的行为数据。
+    </td>
+    <td>
+      https://support.dun.163.com/documents/413846598587424768?docId=507376333387018240&fromOpenUri=0&isOwnLink=1
+    </td>
+  </tr>
+  <tr>
+    <td>阿里云服务</td>
+    <td>阿里云计算有限公司</td>
+    <td>云服务</td>
+    <td>当哔哩哔哩渠道用户使用App时</td>
+    <td>服务端数据采集</td>
+    <td>哔哩哔哩渠道用户</td>
+    <td></td>
+    <td>
+      设备信息：我们会根据您在软件安装及/或使用中授予的具体操作，接收并记录您所使用的设备相关信息（包括设备型号、操作系统版本、设备设置、网络设备信息、设备环境信息）、设备所在位置相关信息（包括您授权的WLAN接入点、蓝牙和基站的传感器信息）。
+      日志信息：当您使用本平台网页或客户端提供的产品或服务时，我们会自动收集您对我们产品或服务的详细使用情况，作为服务日志保存，包括您的浏览记录、点击查看、搜索查询、交易、发言信息，以及IP地址、WLAN网络、浏览器类型、运营商、使用语言、访问日期和时间。
+    </td>
+    <td>https://g.alicdn.com/ygfe/cg-agreement/privacypolicy.html?fromOpenUri=0&isOwnLink=1</td>
+  </tr>
+  <tr>
+    <td>联想统一认证SDK</td>
+    <td>北京神奇工场科技有限公司</td>
+    <td>提供账号登录、支付以及实名制服务</td>
+    <td>当哔哩哔哩渠道用户登录时、当哔哩哔哩渠道用户支付时、当哔哩哔哩渠道用户使用实名制服务时</td>
+    <td>SDK本机采集</td>
+    <td>哔哩哔哩渠道用户</td>
+    <td></td>
+    <td>
+      账号信息、身份信息、设备信息、相关信息、日志信息、网络环境
+    </td>
+    <td>https://open.lenovomm.com/developer/home</td>
+  </tr>
+  <tr>
+    <td>极验-身份验</td>
+    <td>武汉极意网络科技有限公司</td>
+    <td>登录验证功能</td>
+    <td>当您登录使用验证功能时</td>
+    <td>SDK本机采集</td>
+    <td>哔哩哔哩渠道用户</td>
+    <td></td>
+    <td>
+      设备信息：设备系统信息、设备厂商信息、设备型号、设备品牌、OAID、设备内存大小、设备系统语言的信息
+      • 设备网络信息：IP、设备联网状态和类型的信息• 设备环境信息：设备屏幕尺寸、设备电池充电状态、设备电量、设备越狱标识、设备调试标识、传感器型号、陀螺仪、处理器、设备模拟器标识、设备代码篡改标识、浏览器UA、浏览器默认语言、网页请求 referer 的信息
+    </td>
+    <td>http://www.geetest.com/Private</td>
+  </tr>
+  <tr>
+    <td>BumpTechGlide</td>
+    <td>开源框架</td>
+    <td>加载和显示图片</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://muyangmin.github.io/glide-docs-cn/</td>
+  </tr>
+    <tr>
+    <td>Okio</td>
+    <td>开源框架</td>
+    <td>VIVO广告SDK集成，网络框架库</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>VIVO渠道用户</td>
+    <td>存储权限</td>
+    <td>IP地址</td>
+    <td>https://github.com/square/okio</td>
+  </tr>
+    <tr>
+    <td>阿里云短信</td>
+    <td>阿里云计算有限公司</td>
+    <td>发送验证码</td>
+    <td>当您接收验证码时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>
+      https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html
+    </td>
+  </tr>
+  <tr>
+    <td>号码认证SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>发送验证码</td>
+    <td>当您接收验证码时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://cloud.tencent.com/document/product/301/11470</td>
+  </tr>
+  <tr>
+    <td>聚联讯话费虚拟商品服务商</td>
+    <td>北京聚联讯网络科技有限公司</td>
+    <td>虚拟物品充值</td>
+    <td>当您兑换话费时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>百世WMS</td>
+    <td>浙江百世物流科技有限公司</td>
+    <td>实物发货</td>
+    <td>当您查看获奖物品的物流信息时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://www.800best.com/</td>
+  </tr>
+  <tr>
+    <td>创蓝SDK</td>
+    <td>上海创蓝云智信息科技股份有限公司</td>
+    <td>三要素检测、身份证实名认证、反欺诈检测</td>
+    <td>当您登录时、当您实名注册时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://doc.chuanglan.com/document/7E5OGNR5L1K63VOL</td>
+  </tr>
+  <tr>
+    <td>数据宝</td>
+    <td>贵州数据宝网络科技有限公司</td>
+    <td>三要素检测、身份证实名认证</td>
+    <td>当您登录时、当您实名注册时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://www.chinadatapay.com/</td>
+  </tr>
+  <tr>
+    <td>荣耀游戏联运SDK</td>
+    <td>荣耀终端有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当荣耀渠道用户登录时、当荣誉渠道用户支付时、当荣耀渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>荣耀渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      设备及应用信息。如设备名称、设备识别符、设备激活时间、硬件型号、操作系统版本、应用程序版本、软件识别码、设备及应用设置（地区/语言/时区/字号）。
+      移动网络信息。公共陆地移动网络提供商 ID（PLMN）、地理位置（设备所在区域的小区识别码）、Internet 协议（IP）地址。
+      日志信息。当您使用我们的服务或者查看我们提供的内容时，我们会自动收集某些信息并存储在日志中，服务的访问时间、访问次数、访问 IP、事件信息（错误、崩溃、重启、升级）。在访问某些基于位置的服务时（执行搜索、使用导航软件或查看某个位置的天气）
+      指定包名信息、宿主App进程信息、读取存储信息、Android ID、BSSID、SSID、WiFi状态、传感器信息
+    </td>
+    <td>https://www.hihonor.com/cn/privacy/privacy-policy/</td>
+  </tr>
+  <tr>
+    <td>荣耀推送SDK</td>
+    <td>深圳荣耀软件技术有限公司</td>
+    <td>提供消息通知功能</td>
+    <td>当荣耀渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>荣耀渠道用户</td>
+    <td></td>
+    <td>设备信息（设备标识符（AAID、PushToken））</td>
+    <td>https://developer.honor.com/cn/docs/11002/guides/sdk-data-security</td>
+  </tr>
+  <tr>
+    <td>决战沙邑</td>
+    <td>杭州蜜糖在线网络科技有限公司</td>
+    <td>登录、支付</td>
+    <td>当您游玩决战沙邑时、当您在决战沙邑中支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      手机厂商标识、手机型号、手机系统版本、网络类型/运营商、手机内存及硬盘信息（总大小、剩余量)、CPU信息(包括，名称、架构、最大频率、核数)、手机屏幕分辨率、模拟器判断、方向传感器、日志信息、支付信息
+    </td>
+    <td>https://game.aimiplay.com/Game/privacyPolicy</td>
+  </tr>
+  <tr>
+    <td>天剑奇缘</td>
+    <td>上海脉腾网络技术有限公司</td>
+    <td>登录、支付</td>
+    <td>当您游玩天剑奇缘时、当您在天剑奇缘中支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      IP地址、浏览器类型、使用语言、访问日期和时间、软硬件特征信息及网页记录
+    </td>
+    <td>https://54banana.com/agree/privacy.html</td>
+  </tr>
+  <tr>
+    <td>OkHttp SDK（okhttp3）开源库</td>
+    <td>开源框架</td>
+    <td>访问网络</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>
+      IP地址
+    </td>
+    <td>https://github.com/square/okhttp</td>
+  </tr>
+  <tr>
+    <td>Caas Engine SDK（畅连）</td>
+    <td>华为软件技术有限公司</td>
+    <td>提供的音视频通话和屏幕共享的开放能力及服务</td>
+    <td>当华为渠道用户使用畅连分享时</td>
+    <td>SDK本机采集</td>
+    <td>华为渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://consumer.huawei.com/minisite/legal/privacy/statement.htm?code=CN&language=zh-CN</td>
+  </tr>
+  <tr>
+    <td>腾讯YSDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>登录、支付</td>
+    <td>当应用宝渠道用户登录时、当应用宝渠道用户支付时</td>
+    <td>SDK本机采集</td>
+    <td>应用宝渠道用户</td>
+    <td></td>
+    <td>
+      AndroidID、手机型号、IP地址、运营商信息、SSID（Wi-Fi名称）、Wi-Fi连接信息、BSSID（路由器地址）、OAID、设备SN、QQ应用包名、微信包名信息、写SDCard、读SDCard
+    </td>
+    <td>
+      https://wikinew.open.qq.com/index.html#/iwiki/1314826296
+      YSDK集成的SDK含有：腾讯开放平台、腾讯支付（米大师）、腾讯QQ钱包
+    </td>
+  </tr>
+  <tr>
+    <td>腾讯浏览服务X5网页引擎SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>体验网页浏览和视频观看服务</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      设备信息、网络信息、设备标识符
+    </td>
+    <td>
+      https://x5.tencent.com/tbs/policy.html
+    </td>
+  </tr>
+  <tr>
+    <td>京东支付 SDK</td>
+    <td>京东科技控股股份有限公司</td>
+    <td>支付</td>
+    <td>当您使用京东支付时</td>
+    <td>SDK本机采集</td>
+    <td>官方版本用户</td>
+    <td></td>
+    <td>
+      设备信息（BSSID）、手机号码、设备型号、应用信息（应用名、应用版本号）、支付金额、支付时间、<b>订单号</b>、指定包名信息
+    </td>
+    <td>
+      https://h5.m.jd.com/dev/r6GfckUwQej2Y4JK3nn1whkLv2k/
+    </td>
+  </tr>
+  <tr>
+    <td>ThinkingAnalytics SDK</td>
+    <td>数数信息科技(上海)有限公司</td>
+    <td>用户行为分析</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>设备信息权限、存储权限</td>
+    <td>
+      设备信息：
+      设备属性信息（Andriod ID/OAID/IDFA/IDFV/UUID 地址）、设备连接信息（浏览器类型、电信运营商、设备品牌）
+      日志信息：
+      终端用户对集成数数科技 SDK 的产品和/或服务的使用情况、IP 地址、所访问服务的 URL、浏览器类型和使用的语言、访问服务的时间
+      位置信息：
+      IP 地址解析的位置信息
+      唯一应用程序编号：
+      应用唯一标识、应用名称和应用版本号
+      宿主App进程信息
+    </td>
+    <td>
+      https://docs-v2.thinkingdata.cn/?version=latest&lan=zh-CN&code=privacy_cn&anchorId=
+    </td>
+  </tr>
+  <tr>
+    <td>com.atlas.statistic SDK</td>
+    <td>开源框架</td>
+    <td>精准统计分析用户数据</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>Mac地址</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>腾讯游戏安全ACE手游反外挂SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>为开发者提供游戏安全外挂检测相关能力，防御主流通用功能型外挂</td>
+    <td>仅在用户登录游戏后（即在SDK用户登录接口后进行收集）</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>网络访问、已安装应用列表采集</td>
+    <td>游戏账号、设备型号、系统版本、品牌、CPU信息、已安装应用列表信息、国家编码和语言、AndroidID、VPN状态</td>
+    <td>https://down.anticheatexpert.com/docs/ACE-files/wsa/privacy_protocol.pdf</td>
+  </tr>
+  <tr>
+    <td>腾讯云慧眼人脸核身SDK</td>
+    <td>腾讯云计算（北京）有限责任公司</td>
+    <td>活体检测实现实人认证</td>
+    <td>使用支付时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td>人脸视频和照片、摄像头权限</td>
+    <td>身份信息、设备型号、操作系统、网络连接类型 、IP地址、系统设置、系统属性（含传感器列表信息）、相机（相机参数、接口）；不同系统版本还采集以下信息：Android 端：OAID、部分存储文件路径、sim状态信息；iOS端：运营商信息、IDFV、sim状态信息 ；鸿蒙端：OAID</td>
+    <td>https://privacy.qq.com/document/preview/f7370a2ac2224ec98be3d30609568ba3</td>
+  </tr>
+  <tr>
+    <td>创蓝闪验SDK</td>
+    <td>上海璟梦信息科技有限公司</td>
+    <td>实现用户一键登录行为</td>
+    <td>当您注册、登录时</td>
+    <td>SDK本机采集</td>
+    <td>官方版本用户</td>
+    <td></td>
+    <td>本机号码、设备型号、设备厂商、系统版本、屏幕宽高、IP、网络制式、网络类型、当前时间戳、idfv、运营商类型、bundleId、SIM卡状态、subId、oaid、应用包名</td>
+    <td>https://doc.chuanglan.com/document/T98GE1KYCZDMJDHN</td>
+  </tr>
+  </tbody>
+</table>
+<br />
+<table>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+  <tr>
+    <th colspan="9">秋水游戏第三方信息共享清单(Harmony)</th>
+  </tr>
+  <tr>
+    <th>功能类型</th>
+    <th>第三方名称</th>
+    <th>使用目的</th>
+    <th>使用场景</th>
+    <th>共享方式</th>
+    <th>使用范围</th>
+    <th>使用的敏感权限</th>
+    <th>收集类型</th>
+    <th>第三方隐私政策或官网链接</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>华为帐号SDK（Harmony版）</td>
+    <td>华为软件技术有限公司</td>
+    <td>登录、支付、推送</td>
+    <td>当华为渠道用户登录时、当华为渠道用户支付时、当华为渠道用户推送push消息提醒时</td>
+    <td>SDK本机采集</td>
+    <td>Harmony渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      账号信息、应用信息（应用基本信息）、网络信息
+    </td>
+    <td>
+      https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/sdk-data-security-forharmonyos-js-0000001695031600
+    </td>
+  </tr>
+    <tr>
+    <td>鲸鸿动能SDK</td>
+    <td>华为软件技术有限公司</td>
+    <td>广告投放</td>
+    <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+    <td>SDK本机采集</td>
+    <td>Harmony渠道用户</td>
+    <td>设备信息权限</td>
+    <td>
+      权限：设备信息权限
+      收集类型：设备标识符（OAID）、设备信息（设备型号、设备硬件信息、操作系统、系统设置、设备使用信息）、应用基本信息、应用设置信息、应用使用信息、传感器信息（陀螺仪、加速度计、旋转矢量传感器、磁力计、气压计）、网络信息、运营商信息、IP地址、WLAN信息（WiFi状态、WiFi 参数与WiFi列表）、指定包名信息
+    </td>
+    <td>
+      https://privacy.consumer.huawei.com/legal/ads/privacy-statement.htm?&code=CN&language=zh-CN&branchid=0&contenttag=default
+    </td>
+  </tr>
+    <tr>
+    <td>友盟+移动统计SDK</td>
+    <td>友盟同欣（北京）科技有限公司、北京锐讯灵通科技有限公司</td>
+    <td>更精确统计分析用户的数据，实现分享和推送功能</td>
+    <td>当您启动或关闭应用时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>网络信息、运营商信息、日志信息、应用包名信息、宿主APP包名信息、宿主APP进程信息、设备标识信息:必选:OAID/GUID</td>
+    <td>https://www.umeng.com/page/policy</td>
+  </tr>
+  <tr>
+    <td>Bugly SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>监控本客户端崩溃、页面异常等问题、通过shell命令getprop获取手机全部参数信息</td>
+    <td>当App崩溃或脚本异常时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>网络信息、运营商信息、日志信息（第三方开发者自定义 日志、Logcat 日志以及 APP 崩溃堆栈信息）、联网信息、系统名称、系统版本以及国家码、特定包名信息、宿主APP进程信息</td>
+    <td>https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf</td>
+  </tr>
+  <tr>
+    <td>Cocos(Cocos2d-x、Cocos Creator)</td>
+    <td>厦门雅基软件有限公司</td>
+    <td>游戏开发框架，用于游戏开发</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、传感器、传感器列表、指定包名信息
+      （1）设备信息：设备型号、操作系统版本、语言环境、IP地址、设备识别码（IMEI）、浏览器的类型、电信运营商信息。
+      （2）日志信息：访问的网页、搜索内容、访问时间、IP地址、浏览器类型、电信运营商、使用的语言，以及新建项目信息、项目构建信息、项目参数、项目类型、使用时长、开发应用名称、应用发布渠道。
+      （3）您终端用户的信息：终端设备操作系统版本、应用标识符、应用程序版本、应用分发渠道、IP地址、安卓广告主标识符、在线时长、设备厂商、设备型号、分辨率、移动网络、语言环境、网络类型信息。
+    </td>
+    <td>https://download.cocos.com/CocosUdc/agreement/Cocos_Privacy_Policy_cn_20200904.html</td>
+  </tr>
+  <tr>
+    <td>unity 3D SDK</td>
+    <td>优三缔科技（上海）有限公司</td>
+    <td>运行 2D 和 3D 内容时帮助玩家进行游戏行为</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限、网络权限</td>
+    <td>
+      运营商信息、旋转矢量传感器、运行列表信息、SSID、传感器列表
+    </td>
+    <td>https://unity.cn/legal/china-privacy-policy</td>
+  </tr>
+  <tr>
+    <td>阿里云短信</td>
+    <td>阿里云计算有限公司</td>
+    <td>发送验证码</td>
+    <td>当您接收验证码时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>
+      https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html
+    </td>
+  </tr>
+  <tr>
+    <td>号码认证SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>发送验证码</td>
+    <td>当您接收验证码时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://cloud.tencent.com/document/product/301/11470</td>
+  </tr>
+  <tr>
+    <td>聚联讯话费虚拟商品服务商</td>
+    <td>北京聚联讯网络科技有限公司</td>
+    <td>虚拟物品充值</td>
+    <td>当您兑换话费时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>百世WMS</td>
+    <td>浙江百世物流科技有限公司</td>
+    <td>实物发货</td>
+    <td>当您查看获奖物品的物流信息时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://www.800best.com/</td>
+  </tr>
+  <tr>
+    <td>创蓝SDK</td>
+    <td>上海创蓝云智信息科技股份有限公司</td>
+    <td>三要素检测、身份证实名认证、反欺诈检测</td>
+    <td>当您登录时、当您实名注册时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://doc.chuanglan.com/document/7E5OGNR5L1K63VOL</td>
+  </tr>
+  <tr>
+    <td>数据宝</td>
+    <td>贵州数据宝网络科技有限公司</td>
+    <td>三要素检测、身份证实名认证</td>
+    <td>当您登录时、当您实名注册时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://www.chinadatapay.com/</td>
+  </tr>
+  <tr>
+    <td>crypto-js库</td>
+    <td>开源框架</td>
+    <td>数据加解密</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>无</td>
+    <td>https://gitee.com/openharmony-sig/crypto-js</td>
+  </tr>
+  <tr>
+    <td>ThinkingAnalytics SDK</td>
+    <td>数数信息科技(上海)有限公司</td>
+    <td>用户行为分析</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>设备信息权限、存储权限</td>
+    <td>
+      设备信息：
+      设备属性信息（OAID/IDFA/IDFV/UUID 地址）、设备连接信息（浏览器类型、电信运营商、设备品牌）
+      日志信息：
+      终端用户对集成数数科技 SDK 的产品和/或服务的使用情况、IP 地址、所访问服务的 URL、浏览器类型和使用的语言、访问服务的时间
+      位置信息：
+      IP 地址解析的位置信息
+      唯一应用程序编号：
+      应用唯一标识、应用名称和应用版本号
+      宿主App进程信息
+    </td>
+    <td>
+      https://docs-v2.thinkingdata.cn/?version=latest&lan=zh-CN&code=privacy_cn&anchorId=
+    </td>
+  </tr>
+  <tr>
+    <td>腾讯云慧眼人脸核身SDK</td>
+    <td>腾讯云计算（北京）有限责任公司</td>
+    <td>活体检测实现实人认证</td>
+    <td>使用支付时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td>人脸视频和照片、摄像头权限</td>
+    <td>身份信息、设备型号、操作系统、网络连接类型 、IP地址、系统设置、系统属性（含传感器列表信息）、相机（相机参数、接口）；不同系统版本还采集以下信息：Android 端：OAID、部分存储文件路径、sim状态信息；iOS端：运营商信息、IDFV、sim状态信息 ；鸿蒙端：OAID</td>
+    <td>https://privacy.qq.com/document/preview/f7370a2ac2224ec98be3d30609568ba3</td>
+  </tr>
+  </tbody>
+</table>
+<br />
+<table>
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
+  <thead>
+  <tr>
+    <th colspan="9">秋水游戏第三方信息共享清单(iOS)</th>
+  </tr>
+  <tr>
+    <th>功能类型</th>
+    <th>第三方名称</th>
+    <th>使用目的</th>
+    <th>使用场景</th>
+    <th>共享方式</th>
+    <th>使用范围</th>
+    <th>使用的敏感权限</th>
+    <th>收集类型</th>
+    <th>第三方隐私政策或官网链接</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr>
+      <td>穿山甲广告SDK</td>
+      <td>北京巨量引擎网络技术有限公司</td>
+      <td>广告投放及统计</td>
+      <td>通过横幅、信息流、插屏、开屏、激励视频为用户展示广告时</td>
+      <td>SDK本机采集</td>
+      <td>所有渠道用户</td>
+      <td>存储权限</td>
+      <td>
+        设备信息
+        必选信息：
+        【Android+iOS】设备品牌、型号、软件系统版本、屏幕密度、屏幕分辨率、设备语言、设备时区、sim卡信息（mcc&mnc）、CPU信息、可用存储空间大小等基础信息
+        【Android】AndroidID、OAID
+        【iOS】手机系统重启时间、磁盘总空间、系统总内存空间、IDFV
+        网络信息
+        必选信息：
+        【Android+iOS】运营商信息、Wi-Fi状态、网络信号强度、IP地址
+        应用信息
+        必选信息：
+        【Android】应用包名、运行中的进程信息、版本号、应用前后台状态
+        可选信息：
+        【Android】软件列表信息
+        传感器信息
+        可选信息：
+        【Android】线性加速度传感器、磁场传感器、旋转矢量传感器
+        【Android+iOS】加速度传感器、陀螺仪传感器
+        广告信息
+        【Android+iOS】对广告的展示、点击及转化等交互数据
+        性能数据
+        【双端】崩溃数据、性能数据
+      </td>
+      <td>https://www.csjplatform.com/privacy/partner</td>
+    </tr>
+    <tr>
+    <td>Bugly SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>监控及排查本客户端崩溃问题、页面异常等问题，帮助APP提升稳定性</td>
+    <td>当App崩溃或脚本异常时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、运营商信息、日志信息（第三方开发者自定义 日志、Logcat 日志以及 APP 崩溃堆栈信息）、设备 ID（idfv）、联网信息、系统名称、系统版本以及国家码、特定包名信息
+    </td>
+    <td>https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf</td>
+  </tr>
+  <tr>
+    <td>Udesk SDK</td>
+    <td>北京沃丰时代数据科技有限公司</td>
+    <td>解决您在产品内遇到的问题、收集您的反馈或意见</td>
+    <td>当您使用客服功能反馈问题时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>使用摄像头拍摄、麦克风、读取相册、保存相册、手机存储和读取权限</td>
+    <td>
+      网络信息、运营商信息、传感器（加速度传感器）、传感器列表、SDK版本号，屏幕尺寸，设备型号，手机操作系统版本号，App名称，App版本，时间戳，时区和网络
+    </td>
+    <td>https://www.udesk.cn/terms_service.html Udesk集成的SDK含有：Facebook SDK 当您使用Udesk客服功能时，需要访问北京沃丰时代数据科技有限公司</td>
+  </tr>
+  <tr>
+    <td>微信Open SDK</td>
+    <td>深圳市腾讯计算机系统有限公司</td>
+    <td>登录、支付、分享</td>
+    <td>当用户登录时、当用户使用微信支付时、当用户分享至微信客户端时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>保存图片到相册</td>
+    <td>设备信息、网络信息、运营商信息、剪切板信息、设备标识符、微信包名信息</td>
+    <td>
+      https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8
+      腾讯SDK集成的SDK含有：腾讯微信开放平台
+    </td>
+  </tr>
+
+  <tr>
+    <td>Cocos(Cocos2d-x、Cocos Creator)</td>
+    <td>厦门雅基软件有限公司</td>
+    <td>游戏开发框架，用于游戏开发</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      网络信息、传感器、传感器列表、指定包名信息
+      （1）设备信息：设备型号、操作系统版本、语言环境、IP地址、设备识别码（IMEI）、浏览器的类型、电信运营商信息。
+      （2）日志信息：访问的网页、搜索内容、访问时间、IP地址、浏览器类型、电信运营商、使用的语言，以及新建项目信息、项目构建信息、项目参数、项目类型、使用时长、开发应用名称、应用发布渠道。
+      （3）您终端用户的信息：终端设备操作系统版本、应用标识符、应用程序版本、应用分发渠道、IP地址、iOS供应商标识符（IDFV）、iOS广告标识符（IDFA）、安卓广告主标识符、在线时长、设备厂商、设备型号、分辨率、移动网络、语言环境、网络类型信息。
+    </td>
+    <td>https://download.cocos.com/CocosUdc/agreement/Cocos_Privacy_Policy_cn_20200904.html</td>
+  </tr>
+  <tr>
+    <td>unity 3D SDK</td>
+    <td>优三缔科技（上海）有限公司</td>
+    <td>运行 2D 和 3D 内容时帮助玩家进行游戏行为</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限、网络权限</td>
+    <td>
+      运营商信息、旋转矢量传感器、运行列表信息、SSID、传感器列表
+    </td>
+    <td>https://unity.cn/legal/china-privacy-policy</td>
+  </tr>
+  <tr>
+    <td>APP支付客户端SDK</td>
+    <td>支付宝(中国)网络技术有限公司</td>
+    <td>支付</td>
+    <td>当用户使用支付宝支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      传感器（加速度传感器、旋转矢量传感器）、传感器列表
+      可变更的唯一设备识别码:SSID、BSSD、CAID、IDFV
+      基本设备信息:设备机型相关信息，通常用于功能适配、稳定性的功能，系统设置、系统属性、设备型号、设备品牌、操作系统
+      网络信息: IP 地址、网络类型、运营商信息、 wiFi 状态、WiFi 参数、 WiFi 列表
+    </td>
+    <td>https://opendocs.alipay.com/open/54/01g6qm#%E6%94%AF%E4%BB%98%E5%AE%9D%20App%20%E6%94%AF%E4%BB%98%E5%AE%A2%E6%88%B7%E7%AB%AF%20SDK%20%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96</td>
+  </tr>
+  <tr>
+    <td>苹果应用内支付（IAP）</td>
+    <td>云上艾珀（贵州）技术有限公司</td>
+    <td>支付</td>
+    <td>当用户使用苹果支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td></td>
+    <td>
+      用户标识信息，订单交易信息（苹果物品ID、折扣、物品数量）
+    </td>
+    <td>https://www.icloud.com/gcbd-privacy-policy/ 当您使用苹果支付时，需要访问苹果电子产品商贸（北京）有限公司</td>
+  </tr>
+  <tr>
+    <td>决战沙邑</td>
+    <td>杭州蜜糖在线网络科技有限公司</td>
+    <td>登录、支付</td>
+    <td>当您游玩决战沙邑时、当您在决战沙邑中支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      手机厂商标识、手机型号、手机系统版本、网络类型/运营商、手机内存及硬盘信息（总大小、剩余量)、CPU信息(包括，名称、架构、最大频率、核数)、手机屏幕分辨率、模拟器判断、方向传感器、日志信息、支付信息
+    </td>
+    <td>https://game.aimiplay.com/Game/privacyPolicy</td>
+  </tr>
+  <tr>
+    <td>天剑奇缘</td>
+    <td>上海脉腾网络技术有限公司</td>
+    <td>登录、支付</td>
+    <td>当您游玩天剑奇缘时、当您在天剑奇缘中支付时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>存储权限</td>
+    <td>
+      IP地址、浏览器类型、使用语言、访问日期和时间、软硬件特征信息及网页记录
+    </td>
+    <td>https://54banana.com/agree/privacy.html</td>
+  </tr>
+  <tr>
+    <td>ThinkingAnalytics SDK</td>
+    <td>数数信息科技(上海)有限公司</td>
+    <td>用户行为分析</td>
+    <td>当您使用App时</td>
+    <td>SDK本机采集</td>
+    <td>所有渠道用户</td>
+    <td>设备信息权限、存储权限</td>
+    <td>
+      设备信息：
+      设备属性信息（Andriod ID/OAID/IDFA/IDFV/UUID 地址）、设备连接信息（浏览器类型、电信运营商、设备品牌）
+      日志信息：
+      终端用户对集成数数科技 SDK 的产品和/或服务的使用情况、IP 地址、所访问服务的 URL、浏览器类型和使用的语言、访问服务的时间
+      位置信息：
+      IP 地址解析的位置信息
+      唯一应用程序编号：
+      应用唯一标识、应用名称和应用版本号
+      宿主App进程信息
+    </td>
+    <td>
+      https://docs-v2.thinkingdata.cn/?version=latest&lan=zh-CN&code=privacy_cn&anchorId=
+    </td>
+  </tr>
+  <tr>
+    <td>腾讯云慧眼人脸核身SDK</td>
+    <td>腾讯云计算（北京）有限责任公司</td>
+    <td>活体检测实现实人认证</td>
+    <td>使用支付时</td>
+    <td>后端接口传输</td>
+    <td>所有渠道用户</td>
+    <td>人脸视频和照片、摄像头权限</td>
+    <td>身份信息、设备型号、操作系统、网络连接类型 、IP地址、系统设置、系统属性（含传感器列表信息）、相机（相机参数、接口）；不同系统版本还采集以下信息：Android 端：OAID、部分存储文件路径、sim状态信息；iOS端：运营商信息、IDFV、sim状态信息 ；鸿蒙端：OAID</td>
+    <td>https://privacy.qq.com/document/preview/f7370a2ac2224ec98be3d30609568ba3</td>
+  </tr>
+  <tr>
+    <td>创蓝闪验SDK</td>
+    <td>上海璟梦信息科技有限公司</td>
+    <td>实现用户一键登录行为</td>
+    <td>当您注册、登录时</td>
+    <td>SDK本机采集</td>
+    <td>官方版本用户</td>
+    <td></td>
+    <td>本机号码、设备型号、设备厂商、系统版本、屏幕宽高、IP、网络制式、网络类型、当前时间戳、idfv、运营商类型、bundleId、SIM卡状态、subId、oaid、应用包名</td>
+    <td>https://doc.chuanglan.com/document/T98GE1KYCZDMJDHN</td>
+  </tr>
+  </tbody>
+</table>
+      <br />
+      <br />
+     
+      <p class="ending">
+        秋水游戏
+      </p>
+
+
