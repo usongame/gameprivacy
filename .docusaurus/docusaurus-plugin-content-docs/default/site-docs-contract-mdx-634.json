@@ -1,0 +1,27 @@
+{
+  "id": "contract",
+  "title": "秋水游戏许可及服务协议",
+  "description": "《秋水游戏许可及服务协议》（以下简称“本协议”）由您与秋水游戏服务提供方共同缔结，本协议具有合同效力。请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制秋水责任的条款、对用户权利进行限制的条款、约定争议解决方式和司法管辖的条款，以及开通或使用某项服务的单独协议。前述限制、免责及争议解决方式和管辖条款可能以黑体加粗或其他合理方式提示您注意。",
+  "source": "@site/docs/contract.mdx",
+  "sourceDirName": ".",
+  "slug": "/contract",
+  "permalink": "/docs/contract",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contract.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "contract",
+    "title": "秋水游戏许可及服务协议"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "隐私政策",
+    "permalink": "/docs/privacy"
+  },
+  "next": {
+    "title": "第三方 SDK 目录",
+    "permalink": "/docs/sdk"
+  }
+}

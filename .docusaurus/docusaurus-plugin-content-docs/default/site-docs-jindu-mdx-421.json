@@ -1,0 +1,23 @@
+{
+  "id": "jindu",
+  "title": "禁赌公告",
+  "description": "秋水桌球运营团队/2025-01-26",
+  "source": "@site/docs/jindu.mdx",
+  "sourceDirName": ".",
+  "slug": "/jindu",
+  "permalink": "/docs/jindu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/jindu.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "jindu",
+    "title": "禁赌公告"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "秋水游戏未成年人隐私保护指引",
+    "permalink": "/docs/children"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "children",
+  "title": "秋水游戏未成年人隐私保护指引",
+  "description": "更新日期：2025年6月5日",
+  "source": "@site/docs/children.mdx",
+  "sourceDirName": ".",
+  "slug": "/children",
+  "permalink": "/docs/children",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/children.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "children",
+    "title": "秋水游戏未成年人隐私保护指引"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第三方 SDK 目录",
+    "permalink": "/docs/sdk"
+  },
+  "next": {
+    "title": "禁赌公告",
+    "permalink": "/docs/jindu"
+  }
+}

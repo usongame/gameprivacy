@@ -18,6 +18,7 @@ const sidebars: SidebarsConfig = {
     'contract',
     'sdk',
     'children',
+    'jindu',
   ],
 };
 

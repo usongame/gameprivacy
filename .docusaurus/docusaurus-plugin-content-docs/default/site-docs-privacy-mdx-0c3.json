@@ -1,0 +1,23 @@
+{
+  "id": "privacy",
+  "title": "隐私政策",
+  "description": "更新发布日期：2025年8月4日",
+  "source": "@site/docs/privacy.mdx",
+  "sourceDirName": ".",
+  "slug": "/privacy",
+  "permalink": "/docs/privacy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/privacy.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "privacy",
+    "title": "隐私政策"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "秋水游戏许可及服务协议",
+    "permalink": "/docs/contract"
+  }
+}

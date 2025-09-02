@@ -1,0 +1,27 @@
+{
+  "id": "sdk",
+  "title": "第三方 SDK 目录",
+  "description": "第三方SDK类服务商目录",
+  "source": "@site/docs/sdk.mdx",
+  "sourceDirName": ".",
+  "slug": "/sdk",
+  "permalink": "/docs/sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sdk.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "sdk",
+    "title": "第三方 SDK 目录"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "秋水游戏许可及服务协议",
+    "permalink": "/docs/contract"
+  },
+  "next": {
+    "title": "秋水游戏未成年人隐私保护指引",
+    "permalink": "/docs/children"
+  }
+}
