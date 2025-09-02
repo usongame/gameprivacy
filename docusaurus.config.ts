@@ -69,7 +69,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: ` © ${new Date().getFullYear()} 徐州秋水伊人信息技术有限公司 版权所有`,
     },
     prism: {
       theme: prismThemes.github,
