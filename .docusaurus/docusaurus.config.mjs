@@ -71,7 +71,7 @@ export default {
     "footer": {
       "style": "dark",
       "links": [],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": " © 2025 徐州秋水伊人信息技术有限公司 版权所有"
     },
     "prism": {
       "theme": {
