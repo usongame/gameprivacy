@@ -1,6 +1,7 @@
 # Docusaurus 生成的文件
 /build
 /dist
+/.docusaurus
 
 # 依赖
 /node_modules
