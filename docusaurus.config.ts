@@ -14,9 +14,9 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // GitHub Pages 项目站点：https://usongame.github.io/gameprivacy/
-  url: 'https://usongame.github.io',
-  baseUrl: '/gameprivacy/',
+  // Netlify 自定义域名站点：https://gameprivacy.usongame.com（根路径部署）
+  url: 'https://gameprivacy.usongame.com',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'usongame', // GitHub 用户名/组织
